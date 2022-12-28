@@ -1,0 +1,58 @@
+{
+    "bg": "https://uploaddeimagens.com.br/images/004/193/227/original/logo.jpg?1669744876",
+    "btn": "https://uploaddeimagens.com.br/images/004/193/329/original/haltere.png?1669747700",
+
+    "Textos":{
+        "avisoPagamentoSemestral": "* O valor semestral pode ser feito em até 6x no cartão, porém, não tem extorno."
+    },
+
+    "botoes": {
+        "instagram": {
+            "url": "https://www.instagram.com/academiareddragon/",
+            "logo": "https://img.icons8.com/color/48/null/instagram-new--v1.png",
+            "span": ""
+        },  
+        "whatsapp": {
+            "url": "https://api.whatsapp.com/send?phone=5496212645",
+            "logo": "https://img.icons8.com/color/48/null/whatsapp--v1.png",
+            "span": "(54) 9621-2645"
+        }
+    },
+    "Links": {
+        "Home": "#",
+        "A Red Dragon": "#",
+        "Nossos Produtos": "#",
+        "Planos": "#",
+        "Contato": "#"
+    },
+    "Planos": {
+        "3x mensal": {
+            "nome": "3x por semana",
+            "forma":"Pagamento Mensal",
+            "valor": "R$ 59,90 / mês"
+            
+        },
+        "3x semestral": {
+            "nome": "3x por semana",
+            "forma":"Pagamento Semestral*",
+            "valor": "R$ 299,40 ou 6x de R$ 49,90"            
+        },
+        "Livre mensal": {
+            "nome": "Livre",
+            "forma":"Pagamento Mensal",
+            "valor": "R$ 79,90 / mês"
+        },
+        "Livre semestral": {
+            "nome": "Livre",
+            "forma":"Pagamento Semestral*",
+            "valor": "R$ 419,40 ou 6x de R$ 69,90"
+        }
+    },
+    "Horarios": {
+        "texto": "Horário de Funcionamento",
+        "semana": "Segunda à Sexta:",
+        "horarioSemana": "06:00 às 12:30 | 14:00 às 22:00",
+        "fimDeSemana": "Sábado",
+        "horarioFimDeSemana": "06:00 às 12:00"
+    }
+}
