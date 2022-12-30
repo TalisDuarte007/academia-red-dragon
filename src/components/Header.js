@@ -1,16 +1,31 @@
 import styled from "styled-components";
-import config from "../config.json"
+import config from "../config.json";
 
 
 const StyledBanner =  styled.div`
-    background: url(${config.bg}) center;
+    display: flex;
+    background: url(${config.Imagens.background1}) center;
     background-size: cover;
-    min-height: 230px;
+    width: 100%;
     height: 61vh;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 80%;
+        height: auto; 
+    }
+    @media screen and (max-width: 600px) {
+        img{
+            width: 90%;
+        }
+        
+    }
 `;
 
 export default function Header(){
     return(
-        <StyledBanner />
+        <StyledBanner>
+            <img src={config.Imagens["logo_full-red"]} alt="logo"/>
+        </StyledBanner>
     );
 }

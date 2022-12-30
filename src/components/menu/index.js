@@ -9,6 +9,10 @@ const StyledMenu = styled.div`
     justify-content: space-between;
     align-items: baseline;
     padding: 20px 150px;
+    @media screen and (max-width: 1350px) {
+        padding: 20px 70px;
+        
+    }
 `;
 
 export default function Menu(props) {

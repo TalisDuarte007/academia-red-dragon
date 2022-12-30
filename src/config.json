@@ -2,6 +2,20 @@
     "bg": "https://uploaddeimagens.com.br/images/004/193/227/original/logo.jpg?1669744876",
     "btn": "https://uploaddeimagens.com.br/images/004/193/329/original/haltere.png?1669747700",
 
+    "Imagens":{
+        "background1": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "background2": "https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "background3": "https://images.pexels.com/photos/4761779/pexels-photo-4761779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "background4": "https://images.pexels.com/photos/1886487/pexels-photo-1886487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "background5": "https://images.pexels.com/photos/4164640/pexels-photo-4164640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "background6": "https://images.pexels.com/photos/4164761/pexels-photo-4164761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "background7": "https://images.pexels.com/photos/1554824/pexels-photo-1554824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "background8": "https://images.pexels.com/photos/1608099/pexels-photo-1608099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "background9": "https://images.pexels.com/photos/4164765/pexels-photo-4164765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "logo_full-red": "https://uploaddeimagens.com.br/images/004/279/806/original/VERMELHO_HORIIZONTAL.png?1672429291",
+        "logo_red_black": "https://uploaddeimagens.com.br/images/004/279/810/original/VERMELHO_E_PRETO_HORIZONTAL.png?1672429405"
+
+    },
     "Textos":{
         "avisoPagamentoSemestral": "* O valor semestral pode ser feito em até 6x no cartão, porém, não tem extorno."
     },
@@ -35,7 +49,7 @@
         "3x semestral": {
             "nome": "3x por semana",
             "forma":"Pagamento Semestral*",
-            "valor": "R$ 299,40 ou 6x de R$ 49,90"            
+            "valor": "6x de R$ 49,90"            
         },
         "Livre mensal": {
             "nome": "Livre",
@@ -45,7 +59,7 @@
         "Livre semestral": {
             "nome": "Livre",
             "forma":"Pagamento Semestral*",
-            "valor": "R$ 419,40 ou 6x de R$ 69,90"
+            "valor": "6x de R$ 69,90"
         }
     },
     "Horarios": {

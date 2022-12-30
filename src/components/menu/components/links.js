@@ -1,18 +1,23 @@
 import styled from "styled-components";
 
 const StyledLinks = styled.div`
+    display: flex;
+    gap: 40px;
 
-.span-links{
-    font-size: 18px;
-    color: #f34336;
-    margin-left: 50px;
-    border: solid 2px transparent ;
-    padding: 5px;
-}
-.span-links:hover{
-    border-bottom: solid 3px #f34336 ;
-    text-decoration: none;
-}
+    .span-links{
+        font-size: 18px;
+        color: #f34336;
+        border: solid 2px transparent ;
+        padding: 5px;
+    }
+    .span-links:hover{
+        border-bottom: solid 3px #f34336 ;
+        text-decoration: none;
+    }
+
+    @media screen and (max-width: 1150px){
+        gap: 25px  
+    }
 
 `;
 

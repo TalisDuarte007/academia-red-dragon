@@ -1,11 +1,11 @@
 import styled from "styled-components";
+import config from "../../config.json";
 
 
 const StyledPlanos = styled.div`
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.6);
-    //background-image: url(https://uploaddeimagens.com.br/images/004/275/823/original/%E2%80%94Pngtree%E2%80%94carbon_fiber_modern_dark_black_1576247.png?1672181168);
     justify-content: space-between;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,8 @@ const StyledPlanos = styled.div`
     .cardPlanos{
         display: flex;
         flex-direction: column;
-        background-color: #2d2d2c;
+        background: url(${config.Imagens.background8}) center;
+        background-size: 100%;
         box-shadow: 3px 3px 2px 1px black;
         justify-content: space-between;
         width: 270px;
@@ -84,6 +85,66 @@ const StyledPlanos = styled.div`
             font-size: 19px;
             font-weight: 500;
         }
+    }
+
+    @media screen and (max-width: 1350px){
+        padding: 20px 0;
+        .boxPlanos{
+            margin-top: 40px;
+        }
+        .cardPlanos{
+            width: 240px;
+            height: 480px;
+        }
+        .cardPlanos:last-child{
+        width: 280px;
+        height: 510px;
+        border: 2px solid #f34336;
+        box-shadow: px px 2px 1px black;
+        div{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .preco{
+            font-size: 19px;
+            font-weight: 500;
+        }
+    }
+    }
+    @media screen and (max-width: 1150px){
+        .cardPlanos{
+            width: 210px;
+            height: 450px;
+            
+            .horarios-box--horarios{
+                font-size: 13px;
+            }
+            .titulo-box--horarios {
+                font-size: 15px;
+            }
+        }
+        .cardPlanos:last-child{
+        width: 270px;
+        height: 500px;
+        }  
+    }
+    @media screen and (max-width: 1050px){
+        .cardPlanos{
+            width: 190px;
+            height: 420px;
+            
+            .horarios-box--horarios{
+                font-size: 12px;
+            }
+            .titulo-box--horarios {
+                font-size: 14px;
+            }
+        }
+        .cardPlanos:last-child{
+        width: 260px;
+        height: 490px;
+        }  
     }
 `;
 
