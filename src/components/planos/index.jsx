@@ -187,6 +187,50 @@ const StyledPlanos = styled.div`
         gap: 10px;
         
     }
+    @media screen and (max-width: 400px){
+        padding: 0 10px;
+        .cardPlanos{
+            width: 175px;
+            height: 380px;
+
+            .preco{
+            font-size: 12px;
+            margin-bottom: 12px;
+            }
+            .box-horarios--academia{
+                font-size: 10px;
+            }
+            .titulo-box--horarios{
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+            .dias-box--horarios{
+                margin-top: 10px;
+            }
+            .horarios-box--horarios{
+                font-size: 10px;
+            }
+            }
+        .cardPlanos:last-child{
+            width: 175px;
+            height: 380px;
+        }
+    }
+    @media screen and (max-width: 375px ){
+        height: 170vh;
+        padding: 0 10px;
+        .cardPlanos{
+            width: 150px;
+            height: 380px;
+
+        }
+        .cardPlanos:last-child{
+            width: 150px;
+            height: 380px;
+        }
+        
+    }
+
 `;
 
 
