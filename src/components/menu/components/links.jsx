@@ -103,6 +103,9 @@ const StyledBotao = styled.div`
     @media screen and (max-width: 800px) {
         display: block;
     }  
+    @media screen and (max-width: 600px) {
+        right: 70px;
+    }  
 `;
 
 export default function Links(props){

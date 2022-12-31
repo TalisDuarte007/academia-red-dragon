@@ -15,6 +15,10 @@ const StyledMenu = styled.div`
         padding: 20px 70px;
         
     }
+    @media screen and (max-width: 600px) {
+        padding: 20px 30px;
+        
+    }
 `;
 
 export default function Menu(props) {
