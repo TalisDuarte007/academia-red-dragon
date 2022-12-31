@@ -162,6 +162,31 @@ const StyledPlanos = styled.div`
         } 
         
     }
+    @media screen and (max-width: 579px){
+        padding: 0 50px;
+        height: 150vh;
+        .boxPlanos{
+            flex-wrap: wrap
+        }
+        .cardPlanos{
+            width: 190px;
+            height: 380px;
+        }
+        .cardPlanos:last-child{
+            width: 190px;
+            height: 380px;
+        } 
+        
+    }
+    @media screen and (max-width: 520px){
+        padding: 0 30px;
+        
+    }
+    @media screen and (max-width: 480px){
+        padding: 0 20px;
+        gap: 10px;
+        
+    }
 `;
 
 
