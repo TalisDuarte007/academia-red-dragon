@@ -4,6 +4,7 @@ import Header from "../components/Header"
 import config from "../config.json";
 import Menu from "../components/menu";
 import Planos from "../components/planos";
+import Produtos from "../components/produtos";
 
 const StyledPage = styled.div`
   display: flex;
@@ -24,6 +25,7 @@ function HomePage() {
                 <StyledMainPage>
                     <Header/>
                     <Planos textos={config.Textos} horarios={config.Horarios} config={config.Planos}/>
+                    <Produtos/>
                 </StyledMainPage>
                 
             </StyledPage>

@@ -7,7 +7,7 @@ const StyledBanner =  styled.div`
     background: url(${config.Imagens.background1}) center;
     background-size: cover;
     width: 100%;
-    height: 61vh;
+    height: 90vh;
     align-items: center;
     justify-content: center;
     img{
@@ -24,7 +24,7 @@ const StyledBanner =  styled.div`
 
 export default function Header(){
     return(
-        <StyledBanner>
+        <StyledBanner id="HOME">
             <img src={config.Imagens["logo_full-red"]} alt="logo"/>
         </StyledBanner>
     );

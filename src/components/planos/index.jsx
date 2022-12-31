@@ -11,6 +11,7 @@ const StyledPlanos = styled.div`
     justify-content: center;
     padding-top: 50px;
     padding: 20px 150px;
+    height: 90vh;
     p{
         font-size: 40px;
         color: #f34336;
@@ -41,7 +42,6 @@ const StyledPlanos = styled.div`
         align-items: center;
         gap: 20px;
         padding: 20px;
-
         div{
             display: flex;
             flex-direction: column;
@@ -142,9 +142,25 @@ const StyledPlanos = styled.div`
             }
         }
         .cardPlanos:last-child{
-        width: 260px;
-        height: 490px;
+            width: 260px;
+            height: 490px;
         }  
+    }
+    @media screen and (max-width: 1050px){
+        padding: 0 50px;
+        height: 150vh;
+        .boxPlanos{
+            flex-wrap: wrap
+        }
+        .cardPlanos{
+            width: 220px;
+            height: 420px;
+        }
+        .cardPlanos:last-child{
+            width: 230px;
+            height: 430px;
+        } 
+        
     }
 `;
 
@@ -154,7 +170,7 @@ export default function Planos(props) {
     const planos = Object.keys(props.config)
     return(
          <StyledPlanos key={planos}>
-             <p>Planos de Musculação</p>
+             <p id="PLANOS">Planos de Musculação</p>
              <div className="boxPlanos">
                 {planos.map((plano) => {
                     const propsPlanos = props.config[plano]

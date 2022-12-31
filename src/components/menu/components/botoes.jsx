@@ -9,16 +9,6 @@ const StyledBotoes = styled.div`
   }
 `;
 
-// const StyledLogo = styled.div`
-//     background-color: whitesmoke;
-//     display: flex;
-//     border: 1px solid red;
-//     border-radius: 100%;
-//     margin: auto;
-//     align-items: center;
-
-// `;
-
 export default function Botoes(props) {
   const botoes = Object.keys(props.botoes);
   return (
@@ -27,7 +17,6 @@ export default function Botoes(props) {
         return (
           <a className="box-logo" href={props.botoes[botao].url} key={botao}>
             <img className="logo-social" src={props.botoes[botao].logo} alt="#"/>
-            {/* <span>{props.botoes[botao].span}</span> */}
           </a>
         );
       })}

@@ -12,8 +12,12 @@
         "background7": "https://images.pexels.com/photos/1554824/pexels-photo-1554824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "background8": "https://images.pexels.com/photos/1608099/pexels-photo-1608099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "background9": "https://images.pexels.com/photos/4164765/pexels-photo-4164765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "background10": "https://images.pexels.com/photos/4761351/pexels-photo-4761351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "background11": "https://images.pexels.com/photos/4753890/pexels-photo-4753890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "logo_full-red": "https://uploaddeimagens.com.br/images/004/279/806/original/VERMELHO_HORIIZONTAL.png?1672429291",
-        "logo_red_black": "https://uploaddeimagens.com.br/images/004/279/810/original/VERMELHO_E_PRETO_HORIZONTAL.png?1672429405"
+        "logo_red_black": "https://uploaddeimagens.com.br/images/004/279/810/original/VERMELHO_E_PRETO_HORIZONTAL.png?1672429405",
+        "grass": "https://images.pexels.com/photos/139315/pexels-photo-139315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "botao_menu": "https://uploaddeimagens.com.br/images/004/280/125/original/icons8-menu-rounded-48.png?1672450613"
 
     },
     "Textos":{
@@ -33,10 +37,10 @@
         }
     },
     "Links": {
-        "Home": "#",
+        "Home": "#HOME",
+        "Planos": "#PLANOS",
+        "Nossos Produtos": "#PRODUTOS",
         "A Red Dragon": "#",
-        "Nossos Produtos": "#",
-        "Planos": "#",
         "Contato": "#"
     },
     "Planos": {
@@ -68,5 +72,8 @@
         "horarioSemana": "06:00 às 12:30 | 14:00 às 22:00",
         "fimDeSemana": "Sábado",
         "horarioFimDeSemana": "06:00 às 12:00"
+    },
+    "Produtos":{
+        
     }
 }
