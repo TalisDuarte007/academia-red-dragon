@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { menuShow } from "../scripts/menushow";
 
 const StyledBotao = styled.div`
   display: none;
@@ -12,15 +11,15 @@ const StyledBotao = styled.div`
     border-radius: 7px;
     padding: 4px;
   }
-  @media screen and (max-width: 730px) {
-    display: flex;
+  @media screen and (max-width: 800px) {
+    display: block;
   } 
 `;
 
 export default function BotaoMenu(props) {
   return (
-    <StyledBotao key={props.botao}>
-        <button onClick={menuShow}><img className="icon-menu" src={props.botao} alt="icone botão de menu"/></button>
+    <StyledBotao className="mobileMenu" key={props.botao}>
+        <button><img className="icon-menu" src={props.botao} alt="icone botão de menu"/></button>
     </StyledBotao>
   );
 }

@@ -32,7 +32,7 @@ const StyledLinksMobile = styled.div`
 export default function LinksMobile(props){
     const links = Object.keys(props.links);
     return(
-            <StyledLinksMobile className="mobileMenu" id="mobileMenu" key={links}>
+            <StyledLinksMobile key={links}>
                 {links.map((link) => {
                     return(
                         <a href={props.links[link]} key={link}>
